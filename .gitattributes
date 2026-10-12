@@ -1,7 +1,15 @@
 * text eol=lf
 
+# 二进制资源，禁止 Git 做换行转换（否则会损坏文件）
 *.png -text
 *.jpg -text
+*.jpeg -text
+*.jpe -text
 *.ico -text
 *.gif -text
 *.webp -text
+*.woff -text
+*.woff2 -text
+*.ttf -text
+*.otf -text
+*.eot -text
