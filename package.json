@@ -20,6 +20,9 @@
     "service": {
       "required": [
         "puppeteer"
+      ],
+      "optional": [
+        "assets"
       ]
     }
   },
